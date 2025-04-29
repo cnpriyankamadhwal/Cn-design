@@ -40,16 +40,20 @@ a {
 
 /* about */
 #about {
-    padding: 100px 0;
-    height: 500px;
     border: 1px solid black;
+    min-height: 517.99px;
 }
 
 .about {
-    width: 60%;
-    border-right: 1px solid grey;
-    padding: 0px 44px 0 0px;
-    margin-right: 0px;
+    width: 70%;
+    border-right: 2px solid #000;
+    padding-right: 45px;
+    min-height: 515.50px;
+}
+
+.about-content {
+    padding: 100px 0;
+    font-size: 1.22rem;
 }
 
 .about-us {
@@ -59,20 +63,22 @@ a {
 
 .about p {
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .about-nav {
-    font-size: 35px;
+    padding: 120px 0;
+    font-size: 2.2rem;
 }
 
 .about-nav li {
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 /* footer */
 footer {
     background-color: #f3bbc5;
     padding: 15px;
+    font-size: 1.3rem;
     border: 1px solid black;
 }
